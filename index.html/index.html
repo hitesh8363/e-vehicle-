@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum EV - The Future of Electric Mobility</title>
+    <!-- Use Tailwind CSS for a modern, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Use a modern font like Inter from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom CSS for a clean, dark theme */
+        .dark-theme {
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+    </style>
+</head>
+<body class="dark-theme">
+    <!-- Main content container with responsive padding -->
+    <div class="min-h-screen flex flex-col items-center justify-start p-4 md:p-8">
+
+        <!-- Header/Navigation Bar -->
+        <header class="w-full max-w-7xl flex items-center justify-between p-4 bg-gray-900 rounded-xl shadow-lg mb-8">
+            <div class="text-2xl font-bold text-teal-400">Quantum EV</div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-teal-400 transition duration-300">Home</a>
+                <a href="#features" class="hover:text-teal-400 transition duration-300">Features</a>
+                <a href="#gallery" class="hover:text-teal-400 transition duration-300">Gallery</a>
+                <a href="#contact" class="hover:text-teal-400 transition duration-300">Contact</a>
+            </nav>
+            <a href="#pre-order" class="hidden md:block px-4 py-2 bg-teal-500 hover:bg-teal-600 text-gray-900 font-semibold rounded-lg shadow-md transition duration-300">Pre-Order Now</a>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="w-full max-w-7xl flex flex-col md:flex-row items-center justify-between p-8 md:p-16 mb-16 rounded-3xl bg-gray-900 shadow-xl overflow-hidden">
+            <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">Drive the Future of Mobility.</h1>
+                <p class="mt-4 text-lg md:text-xl text-gray-400">Unleash unparalleled performance with our groundbreaking electric vehicle, designed for a sustainable world.</p>
+                <a href="#pre-order" class="mt-8 inline-block px-8 py-4 bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold text-lg rounded-xl shadow-lg transition transform duration-300 hover:scale-105">
+                    Explore Quantum EV
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center items-center">
+                <!-- Placeholder for an image of the electric vehicle -->
+                <img src="https://placehold.co/600x400/1f2937/d1d5db?text=Quantum+EV+Concept" alt="Quantum Electric Vehicle" class="rounded-2xl shadow-2xl hover:scale-105 transition duration-500 ease-in-out">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="w-full max-w-7xl text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-10">Key Features</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature Card 1: Range -->
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-xl transition-transform hover:scale-105 duration-300">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Unrivaled Range</h3>
+                    <p class="text-gray-400">Go further with a single charge. Our advanced battery technology delivers an estimated 500+ mile range.</p>
+                </div>
+                <!-- Feature Card 2: Performance -->
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-xl transition-transform hover:scale-105 duration-300">
+                    <div class="text-5xl mb-4">🚀</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Blazing Performance</h3>
+                    <p class="text-gray-400">Experience instant acceleration. 0 to 60 mph in under 3.5 seconds with dual-motor all-wheel drive.</p>
+                </div>
+                <!-- Feature Card 3: Technology -->
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-xl transition-transform hover:scale-105 duration-300">
+                    <div class="text-5xl mb-4">🤖</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Smart Technology</h3>
+                    <p class="text-gray-400">Integrated with a seamless AI assistant and a stunning holographic user interface for effortless control.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="w-full max-w-7xl text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-10">Stunning Design</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="https://placehold.co/400x300/1f2937/d1d5db?text=Exterior+Front" alt="Front view of the Quantum EV" class="w-full h-auto object-cover rounded-2xl shadow-lg transition-transform hover:scale-105 duration-300">
+                <img src="https://placehold.co/400x300/1f2937/d1d5db?text=Interior+Dashboard" alt="Dashboard of the Quantum EV" class="w-full h-auto object-cover rounded-2xl shadow-lg transition-transform hover:scale-105 duration-300">
+                <img src="https://placehold.co/400x300/1f2937/d1d5db?text=Side+Profile" alt="Side profile of the Quantum EV" class="w-full h-auto object-cover rounded-2xl shadow-lg transition-transform hover:scale-105 duration-300">
+            </div>
+        </section>
+
+        <!-- Pre-order Call-to-Action Section -->
+        <section id="pre-order" class="w-full max-w-7xl text-center bg-gray-900 p-8 md:p-12 rounded-3xl shadow-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Secure Your Quantum EV Today</h2>
+            <p class="text-gray-400 text-lg mb-8">Join the revolution and be among the first to own the future of electric mobility. Limited spots available.</p>
+            <a href="#contact" class="px-8 py-4 bg-purple-500 hover:bg-purple-600 text-white font-bold text-lg rounded-xl shadow-lg transition transform duration-300 hover:scale-105">
+                Reserve Now
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="w-full max-w-7xl text-center py-8 mt-16 text-sm text-gray-500">
+            <p>&copy; 2024 Quantum EV. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4 text-gray-400">
+                <a href="#" class="hover:text-teal-400 transition duration-300">Twitter</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">Instagram</a>
+                <a href="#" class="hover:text-teal-400 transition duration-300">LinkedIn</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Simple JavaScript for a smooth scroll effect -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
